@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="./css/design.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+<title>Criar usuário - Dupagode</title>
+</head>
+<body>
+ <h1>Crie seu usuário no site:</h1>
+ Coloque os dados para criar o usuário
+ <br><br>
+ <form action="" method="POST"><!-- vai para o banco de dados no wampp-->
+ <label for="text">Nome*: </label><input type="name" name="name" size="60" maxlength="50"required> <br>
+ <label for="email">E-mail*: </label><input type="email" name="email" size="60" maxlength="50"required><br>
+ <label for="number">CPF*:   </label><input type="number" name="cpf" size="11" maxlength="11"required><br>
+ <label for="number">RG*:    </label><input type="number" name="rg" size="8" maxlength="8"required><br>
+ <label for="password">Senha*: </label><input type="password" name="senha" size="12" maxlength="12" required><br>
+ <label for="password">Repita a Senha*: </label><input type="password" name="senha" size="12" maxlength="12" required><br>
+ <label for="telc">Telefone celular*: </label><input type="number" name="telc" size="11" maxlength="11"required><br>
+ <label for="tela">Telefone adicional: </label><input type="number" name="tela" size="11" maxlength="11"><br>
+ <label for="date">Data de nascimento*: </label><input type="date" name="date" size="8" maxlength="8"required><br>
+  <div id="pgto">
+    <input type="radio" name="pagamento" id="1" value="Boleto"/>
+    <label for="radio">Boleto</label>
+    <input type="radio" name="pagamento" id="2" value="Cartão de Débito"/>
+    <label for="radio2">Cartão de débito</label>
+    <input type="radio" name="pagamento" id="3" value="Crédito"/>
+    <label for="radio3">Cartão de crédito
+    <input type="radio" name="pagamento" id="4" value="PicPay"/>
+    <label for="radio4">PicPay
+</div>
+Forma de entrega do produto:<br>
+<div id="entrega">
+    <input type="radio" name="entrega" id="1" value="Correios"/>
+    <label for="radio">Correios</label>
+    <input type="radio" name="entrega" id="2" value="Transportadora"/>
+    <label for="radio2">Transportadora</label>
+    <input type="radio" name="entrega" id="3" value="Entrega na loja física"/>
+    <label for="radio3">Entrega na loja física</label>
+    </div><br>
+</form>
+  <input type="text" name="name" value="" hidden>
+  <input type="text" name="email" value="" hidden>
+  <input type="number" name="cpf" value="" hidden>
+  <input type="number" name="rg" value="" hidden>
+  <input type="password" name="senha" value="" hidden>
+  <input type="password" name="senha" value="" hidden>
+  <input type="number" name="telc" value="" hidden>
+  <input type="number" name="tela" value="" hidden>
+  <input type="date" name="date" value="" hidden>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpar"><br>
+ </form>
+  <div id="rodapé">
+	        <a href="index.html">início</a><br>
+	        <a href="mapa.html">mapa</a><br>
+			<a href="politica_de_privacidade.html" target="blank">política de privacidade</a><br><br>
+ </div>
+ </body>
+</html>
