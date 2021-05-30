@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-device-width: 900px) {
+/* .menu { width:100%; } */
+}
+img {
+   max-width: 100%;
+}
+a:link{
+	background-color: #006400;
+	color: #FFFF00;
+}
+a:hover{
+	color: #006400;
+}
+a:visited{
+	color: #FFFF00;
+}
+body{
+	/* Esse local tem em todas as páginas, portanto a configuração é a mesma*/
+background-color: #006400;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 2.8em;
+line-height: 2.8em;
+text-align: left;
+font-size: 62.5%;
+color: #000;
+margin-left: auto;
+margin-right: auto;
+}
+#contato a:link{
+	background-color: #006400;
+	color: #FF4500;
+}
+#contato a:hover{
+	color: #fff000;
+}
+#contato a:visited{
+	color: #FF0000;
+}
+#formcontato{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    line-height: 0.5em;
+    text-align: left;
+	background-color: #fff;
+    color: #FF0000;
+}
+#compra{
+	font-style: normal;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 1em;
+    text-align: center;
+	background-color: #006400;
+    color: #FF0000;
+}
+#contato{
+    background-color: #006400;
+	color: #FFFF00;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4em;
+    line-height: 2em;
+    text-align: center;
+    box-sizing: border-box;
+}
+#conclusao{
+	background-color: #006400;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8em;
+    line-height: 2.8em;
+    text-align: center;
+    color: #fff;
+}
+#dados{
+	/* Pertence a página cadastro e contato (cadastro.html, cadastro.php e contato.html)/*/
+    background-color: #FFFFFF;
+    color: #FF4500;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 2em;
+    text-align: center;
+}
+#entrega{
+	font-size: 2.2em;
+    line-height: 2.2em;
+	background-color: #ff0000;
+	color: #FFF;
+}
+#form{
+	/* Pertence a página contato (contato.html.contato.php)/*/
+	background-color: #FFFFFF;
+	color: #000;
+	text-align: left;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+h1, h2, h3, h4{
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 6.5em;
+    line-height: 1em;
+    background-color: #006400;
+    color: #FFFF00;
+}
+#início{
+	/* Pertence a página cadastro, mapa, pedido e contato (cadastro.html, cadastro.php, mapa.html, pedido.html, pedido.php contato.html e contato.php)/*/
+	background-color: #FFFFFF;
+	color: #FF0000;
+    font-size: 0.6em;
+    line-height: 1.5em;
+	font-style: normal;
+    font-weight: normal;
+	font-family: Roboto;
+}
+#links{
+	background-color: #FFFFFF;
+	color: #FF0000;
+    font-size: 0.2em;
+    line-height: 1em;
+	font-style: normal;
+    font-weight: normal;
+	font-family: Roboto;
+}
+#links a:link{
+	background-color: #FFFFFF;
+	color: #FF4500;
+}
+#links a:hover{
+	color: #fff000;
+}
+#links a:visited{
+	color: #FF0000;
+}
+#mapa{
+	background-color: #FFFFFF;
+	color: #FF0000;
+	text-align: left;
+	font-size: 3.5em;
+    line-height: 1em;
+}
+#mapa a:link{
+	background-color: #fff;
+	color: #000080;
+	font-size: 2em;
+    line-height: 2em;
+}
+#mapa a:hover{
+	color: #0000CD;
+}
+#mapa a:visited{
+	color: #0000FF;
+}
+#produtos{
+	/* Pertence a página inicial (index.html)*/
+background-color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 3em;
+line-height: 1em;
+text-align: center;
+color: #000;
+margin-right: auto;
+margin-left: auto;
+}
+#pedido{
+	font-style: normal;
+    font-weight: bold;
+    font-size: 3.5em;
+    line-height: 1em;
+    text-align: center;
+	background-color: #006400;
+    color: #FF0000;
+}
+#pgto{
+	font-size: 2.2em;
+    line-height: 2.2em;
+	background-color: #ff0000;
+	color: #FFF;
+}
+#politica{
+	font-size: 2em;
+    line-height: 2em;
+	text-align: center;
+}
+#politica a:link {
+    background-color: #006400;
+	color: #FF4500;
+}
+#politica a:hover {
+	color: #FF0000;
+}
+#politica a:visited {
+	color: #FFD700;
+}
+#rodapé{
+	/* Esse local tem em todas as páginas, portanto a configuração é a mesma*/
+font-family: 'Roboto', sans-serif;
+text-align: left;
+    font-size: 2.1em;
+    line-height: 1.2em;
+background-color: #006400;
+
+}
+#rodapé a:link {
+	background-color: #006400;
+	color: #000080;
+	font-size: 1.0em;
+    line-height: 1.5em;
+}
+#rodapé a:hover {
+	color: #FF0000;
+}
+#rodapé a:visited {
+	color: #0000FF;
+}
+textarea{
+	   /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 0.5em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 50em;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 0.5em solid #999;
+	
+	 /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: .5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+#texto{
+    font-size: 2em;
+    line-height: 2em;
+	background-color: #006400;
+	color: #0000CD;
+}
+#descrição{
+	background-color: #ffffff;
+	color: #000;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+#informações{
+	background-color: #ffffff;
+	color: #000;
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1em;
+    line-height: 0.8em;
+    text-align: center;
+    box-sizing: border-box;
+}
